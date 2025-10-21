@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script'ler - MyScriptBlox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MyScriptBlox</div>
+        <nav class="nav">
+            <a href="dashboard.html" class="active">Script'ler</a>
+            <a href="#">Yükle</a>
+            <a href="#">Profil</a>
+            <button id="logout-btn">Çıkış</button>
+        </nav>
+    </header>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Script ara (örn: aimbot) veya oyun (örn: Blox Fruits)...">
+        <select id="game-filter">
+            <option value="">Tüm Oyunlar</option>
+            <option value="Blox Fruits">Blox Fruits</option>
+            <option value="Pet Simulator">Pet Simulator</option>
+        </select>
+        <button onclick="loadScripts()">Ara</button>
+    </div>
+    <div class="sidebar">
+        <h3>Menüler / Sekmeler</h3>
+        <ul class="menu-tabs">
+            <li><a href="#" onclick="switchTab('popular')">Popüler</a></li>
+            <li><a href="#" onclick="switchTab('trending')">Trend</a></li>
+            <li><a href="#" onclick="switchTab('games')">Oyunlara Göre</a></li>
+        </ul>
+    </div>
+    <main class="main-content">
+        <div id="scripts-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

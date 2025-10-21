@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Blox Fruits Aimbot Script",
+    "description": "Otomatik nişan alma için Lua script.",
+    "code": "-- Bu bir örnek aimbot script\nlocal player = game.Players.LocalPlayer\n-- Daha fazla kod...",
+    "author": "User123",
+    "game": "Blox Fruits",
+    "downloads": 1500
+  },
+  {
+    "id": 2,
+    "title": "Pet Simulator Fly Hack",
+    "description": "Uçma özelliği ekler.",
+    "code": "-- Fly script örneği\nlocal flySpeed = 50\n-- Kod devamı...",
+    "author": "HackerX",
+    "game": "Pet Simulator",
+    "downloads": 800
+  }
+]
